@@ -1,0 +1,153 @@
+"roboscript": {
+    "executionMode": {
+      "strict": true
+    },
+    "postscript": {
+      "terminate": true
+    }
+  }
+  [
+    {
+      "crawlStage": "crawl",
+      "contextDescriptor": {
+        "condition": "app_under_test_shown"
+      },
+      "actions": [
+        
+        {
+          "eventType": "VIEW_TEXT_CHANGED",
+           "delayTime":5000,
+            "replacementText":"0000020000",
+           "elementDescriptors": [
+            {
+              
+              "resourceIdRegex": ".*:id/mobile_no"
+              
+            }]
+            
+        },
+        {
+          "eventType": "VIEW_CLICKED",
+           "delayTime":5000,
+           "elementDescriptors": [
+            {
+              
+              "resourceIdRegex": ".*:id/continue_button"
+              
+            }]
+            
+        },
+        {
+          "eventType": "VIEW_TEXT_CHANGED",
+          "replacementText":"231212",
+           "delayTime":5000,
+           "elementDescriptors": [
+            {
+              
+              "resourceIdRegex": ".*:id/otp_edit_text"
+              
+            }]
+            
+          },
+          //  {
+          //        "eventType": "VIEW_CLICKED",
+          //         "delayTime":5000,
+          //          "visionText": "Jugl dev entity updated"
+                  
+          //      },
+              {
+                "eventType": "VIEW_CLICKED",
+                 "delayTime":5000,
+                 "elementDescriptors": [
+                  {
+                    
+                    "resourceIdRegex": ".*:id/close"
+                    
+                  }]
+                  
+              },
+              {
+                "eventType": "VIEW_CLICKED",
+                 "delayTime":5000,
+                 "elementDescriptors": [
+                  {
+                    
+                    "resourceIdRegex": ".*:id/peopleClose"
+                    
+                  }]
+                  
+              },
+              {
+                "eventType": "VIEW_CLICKED",
+                 "delayTime":5000,
+                 "elementDescriptors": [
+                  {
+                    
+                    "resourceIdRegex": ".*:id/deptClose"
+                    
+                  }]
+                  
+              },
+              {
+                "eventType": "VIEW_CLICKED",
+                 "delayTime":5000,
+                 "elementDescriptors": [
+                  {
+                    
+                    "resourceIdRegex": ".*:id/peopleClose"
+                    
+                  }]
+                  
+              },
+              {
+                "eventType": "VIEW_CLICKED",
+                "delayTime":5000,
+                "elementDescriptors": [
+                  {
+                    
+                   "resourceIdRegex": ".*:id/close"
+                    
+                 }]
+                  
+             },
+              {
+                "eventType": "VIEW_CLICKED",
+                 "delayTime":5000,
+                 "elementDescriptors": [
+                  {
+                    
+                    "resourceIdRegex": ".*:id/chat"
+                    
+                  }]
+                  
+              },
+              {
+                "eventType": "VIEW_CLICKED",
+                 "delayTime":5000,
+                 "elementDescriptors": [
+                  {
+                    
+                    "resourceIdRegex": ".*:id/close"
+                    
+                  }]
+                  
+              },
+              {
+                "eventType": "VIEW_CLICKED",
+                 "delayTime":5000,
+                 "elementDescriptors": [
+                  {
+                    
+                    "resourceIdRegex": ".*:id/close"
+                    
+                  }]
+                  
+              },
+            ]
+          }
+        ]
+
+        
+      
+    
+  
